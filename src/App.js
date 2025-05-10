@@ -10,6 +10,8 @@ import About from "./components/Navigation/About";
 import Contact from "./components/Navigation/Contact";
 
 import MainPage from "./components/Navigation/MainPage";
+import Footer from "./components/Navigation/Footer";
+
 
 
 
@@ -29,6 +31,7 @@ function App() {
                     <Route path='/contact' element={<Contact />} />
                 </Routes>
             </div>
+            <Footer />
         </Router>
     );
 }
